@@ -4,6 +4,8 @@
 ✪主辦單位:中崙高中資訊研習社
 ✪協辦單位:SCINT北臺灣學生資訊社群
 ✪課程時間:每周五 21:00 到 22:00
+✪課程地點:SCINT北臺灣學生資訊社群 Discord 伺服器
+✪伺服器網址:https://discord.com/invite/ebcFY5pZbT
 ✪聯絡窗口:中崙資研 / Email:zlcsc21@gmail.com
 ```
 
