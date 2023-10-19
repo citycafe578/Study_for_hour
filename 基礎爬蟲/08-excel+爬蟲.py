@@ -4,7 +4,7 @@ from openpyxl import Workbook
 
 wb = Workbook()
 ws = wb.active
-ws.title = "PPT爬蟲練習"
+ws.title = "PTT爬蟲練習"
 
 
 url = "https://www.ptt.cc/bbs/index.html"
@@ -16,8 +16,15 @@ soup = BeautifulSoup(res.text,"html.parser")
 articles = soup.find_all("div", class_= "b-ent")
 
 for i in articles:
+    board_class = i.find("div", class_ = "board-class")
+    nuser = i.find("div", class_ = "board-nuser")
+    title = i.find("div", class_ = "board-title")
+    print("看板名稱:" + title.text , "  " , "點擊率:" , nuser.text, "名稱:", title.text)
+
+ws.append(["看板名稱","點擊率"])
+for i in articles:
     title = i.find("div", class_ = "board-class")
     nuser = i.find("div", class_ = "board-nuser")
-    print("看板名稱:" + title.text , "  " , "點擊率:" , nuser.text)
-
+    title = i.find("div", class_ = "board-title")
+    ws.append([board_class.text,nuser.text, title.text])
 wb.save("爬蟲及openpyxl練習.xlsx")
