@@ -15,13 +15,14 @@ res = requests.get(url, headers = headers)
 soup = BeautifulSoup(res.text,"html.parser")
 articles = soup.find_all("div", class_= "b-ent")
 
-for i in articles:
-    board_class = i.find("div", class_ = "board-class")
-    nuser = i.find("div", class_ = "board-nuser")
-    title = i.find("div", class_ = "board-title")
-    print("看板名稱:" + title.text , "  " , "點擊率:" , nuser.text, "名稱:", title.text)
+# for i in articles:
+#     board_class = i.find("div", class_ = "board-class")
+#     nuser = i.find("div", class_ = "board-nuser")
+#     title = i.find("div", class_ = "board-title")
+#     print("看板名稱:" + title.text , "  " , "點擊率:" , nuser.text, "標題:", title.text)
 
-ws.append(["看板名稱","點擊率"])
+title = ["看板名稱", "點擊率", "標題"]
+ws.append(title)
 for i in articles:
     title = i.find("div", class_ = "board-class")
     nuser = i.find("div", class_ = "board-nuser")
