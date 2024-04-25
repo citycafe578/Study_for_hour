@@ -43,5 +43,5 @@
 |:----:|:----|
 |基礎爬蟲教學|[Google Drive](https://drive.google.com/drive/folders/1vTetVjOy0pVwuW2dctD1HbylZ7_BuGqs?usp=sharing)|
 |AR2VR|尚未公布|
-|基礎物件導向|[Google Drive]([https://drive.google.com/drive/folders/1vTetVjOy0pVwuW2dctD1HbylZ7_BuGqs?usp=sharing](https://drive.google.com/drive/folders/1gunB0c3S9Ytcg2CwS1MAmAJ-SffacHa0))|
+|基礎物件導向|[Google Drive](https://drive.google.com/drive/folders/1vTetVjOy0pVwuW2dctD1HbylZ7_BuGqs?usp=sharing](https://drive.google.com/drive/folders/1gunB0c3S9Ytcg2CwS1MAmAJ-SffacHa0)|
 # 簡報僅供教學使用，非經取得本單位或講者授權，不得任意轉載或公開傳輸
